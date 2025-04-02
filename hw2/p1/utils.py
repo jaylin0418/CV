@@ -312,7 +312,7 @@ def nearest_neighbor_classify(
     ]
     '''
     
-    for i in range(len(train_img_feats)):
+    for i in range(len(test_img_feats)):
         # Get the labels of the k nearest neighbors
         k_nearest_labels = [train_labels[idx] for idx in k_nearest_indices[i]]
         
